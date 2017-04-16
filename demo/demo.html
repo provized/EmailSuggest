@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EmailSuggest</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="emailsuggest.js"></script>
+</head>
+<body>
+    <div id="loginbox">
+        <input type="text" placeholder="Start typing Email addresses" id="emails"/>
+        <input type="text" placeholder="Start typing Emails or Names" id="emails2"/>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#emails').emailsuggest({
+                emails: ['apple@example.com', 'ball@facebook.com', 'caterpillar@twitter.com', 'doctor@google.com']
+            });
+            $('#emails2').emailsuggest({
+                names: [{
+                    'John Doe': 'johndoe@microsoft.com'
+                }, {
+                    'Mohammed': 'mohammed@youtube.com'
+                }, {
+                    'Elon Musk': 'elonmusk@paypal.com'
+                }, {
+                    'Steve Jobs': 'stevejobs@apple.com'
+                }]
+            });
+        })
+    </script>
+</body>
+</html>
