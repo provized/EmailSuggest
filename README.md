@@ -15,23 +15,27 @@ Note: You can also provide names and emails as array of 'names' with objects {'N
 
 Example (Only Emails):
 
-`$('#emails').emailsuggest({`
-     `emails: ['apple@example.com', 'ball@facebook.com', 'caterpillar@twitter.com', 'doctor@google.com']
-});`
+```
+$('#emails').emailsuggest({
+     emails: ['apple@example.com', 'ball@facebook.com', 'caterpillar@twitter.com', 'doctor@google.com']
+});
+```
 
 Example (With Names):
 
-`$('#emails2').emailsuggest({
-                 names: [{
-                     'John Doe': 'johndoe@microsoft.com'
-                 }, {
-                     'Mohammed': 'mohammed@youtube.com'
-                 }, {
-                     'Elon Musk': 'elonmusk@paypal.com'
-                 }, {
-                     'Steve Jobs': 'stevejobs@apple.com'
-                 }]
-             });`
+```
+$('#emails2').emailsuggest({
+     names: [{
+         'John Doe': 'johndoe@microsoft.com'
+     }, {
+         'Mohammed': 'mohammed@youtube.com'
+     }, {
+         'Elon Musk': 'elonmusk@paypal.com'
+     }, {
+         'Steve Jobs': 'stevejobs@apple.com'
+     }]
+});
+```
              
 **VERSION CHANGELOG**
 
