@@ -40,14 +40,14 @@ $('#emails2').emailsuggest({
 **VERSION CHANGELOG**
 
 Version 1.0 (Released 17th April 2017)
-Emails Suggest
-Emails and Names Suggest
-Up and Down Arrow Movement and Selection from Suggestions
+1. Emails Suggest
+2. Emails and Names Suggest
+3. Up and Down Arrow Movement and Selection from Suggestions
 
 Upcoming Changes (Hopefully, consider donating):
-User profile picture support
-Gmail Integration
-Non jQuery Version
+1. User profile picture support
+2. Gmail Integration
+3. Non jQuery Version
 
 **DONATE**
 
