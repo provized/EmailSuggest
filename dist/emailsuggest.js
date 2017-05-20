@@ -16,12 +16,10 @@
                                     perf_emails[value] = value;
                                 }
                             });
-                            $.each(options.names, function(index, contacts) {
-                                $.each(contacts, function(index, contact) {
-                                    if (index.toLowerCase().search(b.toLowerCase()) !== -1 || contact.toLowerCase().search(b.toLowerCase()) !== -1) {
-                                        perf_emails[index] = contact;
-                                    }
-                                })
+                            $.each(options.names, function(index, contact) {
+                                if (contact.name.toLowerCase().search(b.toLowerCase()) !== -1 || contact.email.toLowerCase().search(b.toLowerCase()) !== -1) {
+                                    perf_emails[contact.name] = contact.email;
+                                }
                             });
                         }
                     });

@@ -3,7 +3,7 @@ Suggest user defined emails or names to input (like gmail autosuggest)
 
 **LIVE DEMO**
 
-http://provized.com/emailsuggest
+http://codepen.io/provized/pen/wdaMPX
 
 **HOW TO USE**
 
@@ -26,13 +26,17 @@ Example (With Names):
 ```
 $('#emails2').emailsuggest({
      names: [{
-         'John Doe': 'johndoe@microsoft.com'
+         name: 'John Doe',
+         email: 'johndoe@microsoft.com'
      }, {
-         'Mohammed': 'mohammed@youtube.com'
+         name: 'James Bond',
+         email: 'jamesbond007@britishintelligence.com'
      }, {
-         'Elon Musk': 'elonmusk@paypal.com'
+         name: 'Elon Musk',
+         email: 'elonmusk@teslacars.com'
      }, {
-         'Steve Jobs': 'stevejobs@apple.com'
+         name: 'Steve Jobs',
+         email: 'stevejobs@apple.com'
      }]
 });
 ```
@@ -44,10 +48,18 @@ Version 1.0 (Released 17th April 2017)
 2. Emails and Names Suggest
 3. Up and Down Arrow Movement and Selection from Suggestions
 
+Version 1.1 (Released 21st May 2017)
+1. Changed the name and email suggestion array structure
+
 Upcoming Changes (Hopefully, consider donating):
 1. User profile picture support
 2. Gmail Integration
 3. Non jQuery Version
+
+**DEVELOPED BY**
+
+Hala Koukeh
+Shaikh Adnan Moinuddin
 
 **DONATE**
 
