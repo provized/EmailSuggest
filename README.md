@@ -51,8 +51,12 @@ Version 1.0 (Released 17th April 2017)
 Version 1.1 (Released 21st May 2017)
 1. Changed the name and email suggestion array structure
 
-Version 1.2 (Released 11th February 2019)
+Version 1.2 (Released 1st February 2019)
 1. Improved the Demo UI
+
+Version 1.2.1 (Released 11th February 2019)
+1. Minor Fixes
+2. Separated Emailsuggest CSS from Demo CSS
 
 Upcoming Changes (Hopefully, consider donating):
 1. User profile picture support
