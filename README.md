@@ -1,4 +1,4 @@
-# EmailSuggest 1.0
+# EmailSuggest 1.2
 Suggest user defined emails or names to input (like gmail autosuggest)
 
 **LIVE DEMO**
@@ -51,6 +51,9 @@ Version 1.0 (Released 17th April 2017)
 Version 1.1 (Released 21st May 2017)
 1. Changed the name and email suggestion array structure
 
+Version 1.2 (Released 11th February 2019)
+1. Improved the Demo UI
+
 Upcoming Changes (Hopefully, consider donating):
 1. User profile picture support
 2. Gmail Integration
@@ -58,13 +61,12 @@ Upcoming Changes (Hopefully, consider donating):
 
 **DEVELOPED BY**
 
-Hala Koukeh
 Shaikh Adnan Moinuddin
 
-**DONATE**
+**CUSTOMIZATION & DONATE**
 
-After searching for long time on google for something like this, realized many people needed it
-After a lot of effort as per self capability this was made
+After searching for long time on google for something like this, we coded a plugin that suggests email or username.
+Realized many people needed it so we made it open source and free to use.
 
 So, Please consider a donation, it will help me a lot (really)
 

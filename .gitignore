@@ -4,6 +4,7 @@
 /bower_components/
 /node_modules/
 ._.*
+._*
 .idea
 .DS_Store
 config.php

@@ -5,12 +5,21 @@
     <title>EmailSuggest</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <script src="emailsuggest.js"></script>
 </head>
 <body>
-    <div id="loginbox">
-        <input type="text" placeholder="Start typing Email addresses" id="emails"/>
-        <input type="text" placeholder="Start typing Emails or Names" id="emails2"/>
+    <div class="box_wrap">
+        <div class="box">
+            <h1>Simple Email Suggest</h1>
+            <p>Start typing Email addresses</p>
+            <input type="text" placeholder="Ex: apple@example.com" id="emails"/>
+        </div>
+        <div class="box">
+            <h1>Name and Email Suggest</h1>
+            <p>Start typing Name or Email</p>
+            <input type="text" placeholder="Ex: Elon" id="emails2"/>
+        </div>
     </div>
     <script>
         $(document).ready(function() {
